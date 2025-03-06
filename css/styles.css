@@ -352,7 +352,8 @@
     }
 
     .es-search__width {
-        min-width: 540px;
+        min-width: auto;
+        width: 540px;
         padding: 107px 0 93px;
     }
 
