@@ -12,42 +12,57 @@
 <body>
 
     <!-- Init of navigation bar division -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+        <div class="container-xl">
             <!-- Define the brand and logo -->
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <img src="https://www.uniamazonia.edu.co/inicio/images/Programas/LogoSuperior.jpg" alt="Logo UA"
+                    height="40px">
+                Navbar</a>
 
             <!-- Button that allows to wrap the content in small screens-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- Options in the navbar -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">Universidad</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Programas</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Gestion</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Investigación</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sedes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transparencia</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -65,15 +80,16 @@
                             people,
                             and locations</label>
                         <div class="es-search__box-mod">
-                            <svg width="30" viewBox="0 0 23 22" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                stroke="currentColor" stroke-width="1.5" class="icon--search-mag search-box__mag">
+                            <svg width="30" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" stroke="currentColor" stroke-width="1.5"
+                                class="icon--search-mag search-box__mag">
                                 <g stroke="currentColor" stroke-width="1.5" fill="none">
                                     <circle cx="9.20757329" cy="8.99160695" r="8.50646589"></circle>
                                     <path d="M14.8522097,14.6362434 L20.7140392,20.4980728" id="Line-4"></path>
                                 </g>
                             </svg>
-                            <input type="query" id="es-search-form-input" autocomplete="off" name="q" aria-label="search" placeholder="What are you looking for?"
+                            <input type="query" id="es-search-form-input" autocomplete="off" name="q"
+                                aria-label="search" placeholder="What are you looking for?"
                                 class="es-search__box js-search-input">
                             <!---->
                             <!----> <!---->
@@ -177,439 +193,248 @@
 
 
                 <div class="breaking-news">
-                    <div class="breaking-news__text-mod">
-
-                        <p><strong><a href="/response-government-activity">MIT's response to government
-                                    activity</a></strong>: Read the latest about government activity affecting MIT.</p>
-
-                        <p><strong><a href="/updates-from-campus/">Updates from campus</a></strong>: Read the latest
-                            from
-                            MIT and its leaders regarding events on campus.</p>
-
-
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Tapitas.jpg"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Tapitas.jpg"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Tapitas.jpg"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
 
-                <article class="spotlight displaying-breaking-news">
-
-                    <div class="spotlight-inner">
-
-                        <h2 class="spotlight__h">
-                            <svg viewBox="0 0 22 18" width="22" height="18" xmlns="http://www.w3.org/2000/svg"
-                                class="arrow-left spotlight__h--arrow">
-                                <g fill="none" stroke="currentColor" stroke-width="1.5">
-                                    <path d="M9.058 1.219L1.203 9.074l7.855 7.855M1.5 9.074h20.005"></path>
-                                </g>
-                            </svg>
-                            <span>Spotlight: Mar 4, 2025</span>
-                        </h2>
-                        <div class="spotlight__media spotlight__media--single-image spotlight__media--full-width">
-
-                            <figure class="spotlight__figure spotlight__figure--full">
-                                <a class="spotlight__figure-link" target="_blank"
-                                    href="http://news.mit.edu/2025/better-way-deliver-drugs-louis-deridder-0304">
-                                    <img class="spotlight__img" src="/files/images/202503/MIT-Louis_DeRidder_SL.jpg"
-                                        alt="Louis DeRidder">
-                                    <span class="tool-tip" style="
-            left: 689px;
-            top: 316px;">news.mit.edu</span></a>
-                            </figure>
-
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <h2 class="spotlight__h">
-                            <svg viewBox="0 0 22 18" width="22" height="18" xmlns="http://www.w3.org/2000/svg"
-                                class="arrow-left spotlight__h--arrow">
-                                <g fill="none" stroke="currentColor" stroke-width="1.5">
-                                    <path d="M9.058 1.219L1.203 9.074l7.855 7.855M1.5 9.074h20.005"></path>
-                                </g>
-                            </svg>
-                            <span>Spotlight: Mar 4, 2025</span>
-                        </h2>
-
-                        <div class="spotlight__text js-hang-punc ">
-
-                            <p>When cancer patients undergo chemotherapy, the dose is usually based solely on body
-                                surface
-                                area. “How is this the clinical reality?” <a target="_blank"
-                                    href="https://hst.mit.edu/">HST</a> grad student <a target="_blank"
-                                    href="https://engineering.mit.edu/fellows/louis-deridder/">Louis DeRidder</a>
-                                wondered.
-                                He is developing a device to ensure doses are accurate and tailored to individual
-                                patients.
-                            </p>
-
-
-                        </div>
-
-                        <div class="spotlight__meta js-spotlight-meta is-visible">
-                            <h4 class="spotlight__date">Mar 4, 2025</h4>
-                            <a target="_blank"
-                                href="http://news.mit.edu/2025/better-way-deliver-drugs-louis-deridder-0304"
-                                class="spotlight__text__cta js-spotlight-text-cta">Full story</a>
-
-                            <div class="spotlight__share js-spotlight-share">
-                                <h4 class="spotlight__share-h">Share:</h4>
-                                <ul class="spotlight__share-list">
-                                    <li class="spotlight__share-item">
-                                        <a href="https://twitter.com/share?url=http://web.mit.edu/spotlight/improving-chemotherapy"
-                                            target="_blank" class="spotlight__share-link js-share-link">
-                                            <span class="visually-hidden">Twitter</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15.656" height="16"
-                                                viewBox="0 0 15.656 16"
-                                                class="icon--facebook spotlight__share-icon spotlight__share-icon--twitter">
-                                                <path
-                                                    d="M9.317,6.775,15.146,0H13.765L8.7,5.883,4.662,0H0L6.112,8.9,0,16H1.381L6.725,9.788,10.994,16h4.662L9.317,6.775Zm-1.892,2.2-.619-.886L1.879,1.04H4L7.977,6.728l.619.886,5.169,7.394H11.644L7.426,8.974Z"
-                                                    fill="currentColor" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="spotlight__share-item">
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://web.mit.edu/spotlight/improving-chemotherapy"
-                                            target="_blank" class="spotlight__share-link js-share-link">
-                                            <span class="visually-hidden">Facebook</span>
-                                            <svg width="8" height="16" viewBox="0 0 8 16"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                class="icon--facebook spotlight__share-icon spotlight__share-icon--facebook">
-                                                <path
-                                                    d="M5.32 16H1.773V7.999H0V5.242h1.773V3.587c0-2.249 1-3.587 3.844-3.587h2.367v2.758h-1.48c-1.107 0-1.18.385-1.18 1.104l-.005 1.38H8L7.686 8H5.32V16z"
-                                                    fill="currentColor" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <span id="spotlight-explore-more">
-                                <div class="spotlight__more"><a href="/archive/spotlight/improving-chemotherapy">Explore
-                                        more spotlights</a></div>
-                            </span>
-                        </div>
-
+                <div id="special-links" class="container-fluid text-center">
+                    <div class="row ">
+                        <div class="col-6 box" style="background-color: #EDB02E;">Inscripciones</div>
+                        <div class="col-6 box" style="background-color: #E47113;">Aspirantes</div>
+                        <div class="col-3 box" style="background-color: #169586;">Estudiantes</div>
+                        <div class="col-3 box" style="background-color:  #005A7E;">Graduados</div>
+                        <div class="col-3 box" style="background-color:  #34AB1E;">Calendario Academico</div>
+                        <div class="col-3 box" style="background-color:  #A6141D;">Transparencia</div>
+                        <div class="col-3 box" style="background-color: #EDB02E;">Catalogo OPAC</div>
+                        <div class="col-3 box" style="background-color: #E47113;">Participa</div>
+                        <div class="col-3 box" style="background-color: #169586;">PQRS</div>
+                        <div class="col-3 box" style="background-color: #34AB1E;">Contratación</div>
                     </div>
+                </div>
+
+                <div class="container-fluid titlePrincipal">
+                    UDLA Noticias
+                </div>
 
 
-
-                </article>
-
-
-
-
-                <div class="spotlight-addl-content">
-                    <div class="spotlight-addl-content--title">
-
-                        MORE FROM THE MIT COMMUNITY
-
-                    </div>
-                    <div class="spotlight-addl-content--blocks">
-
-
-                        <div class="spotlight-addl-content-block">
-                            <div class="spotlight-addl-content-block--inner" style="min-height: 490px;">
-                                <div class="spotlight-addl-content-block--img">
-
-                                    <a target="_blank" href="http://news.mit.edu/2025/gates-cambridge-scholars-0224">
-
-                                        <img loading="lazy" src="/files/images/202503/2025-MIT-Gates-Cambridge_0.jpg"
-                                            width="900" height="600"
-                                            alt="Markey Freudenburg-Puricelli, Abigail Schipper, and Rachel Zhang"
-                                            typeof="foaf:Image">
-
-
-
-                                        <span class="tool-tip" style="left: 607px; top: 404px;">news.mit.edu</span></a>
-                                </div>
-                                <div class="spotlight-addl-content-block--text">
-                                    <div class="spotlight-addl-content-block--label">
-                                        <strong>
-                                            AROUND CAMPUS
-                                        </strong>
-                                    </div>
-                                    <div class="spotlight-addl-content-block--descr">
-                                        <a target="_blank"
-                                            href="http://news.mit.edu/2025/gates-cambridge-scholars-0224">
-                                            <p>Senior Markey Freudenburg-Puricelli and alumnae Abigail Schipper ’24 and
-                                                Rachel Zhang ’21 have been selected as Gates Cambridge Scholars and will
-                                                begin graduate studies this fall in the field of their choice at
-                                                Cambridge
-                                                University in the U.K.</p>
-
-                                        </a>
-                                    </div>
+                <div id="news" class="container-fluid text-center">
+                    <div class="row">
+                        <div class="col-6 box-news">
+                            <div class="card">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="spotlight-addl-content-block">
-                            <div class="spotlight-addl-content-block--inner" style="min-height: 490px;">
-                                <div class="spotlight-addl-content-block--img">
-
-                                    <a target="_blank"
-                                        href="http://news.mit.edu/2025/tiny-tardigrades-protein-may-help-cancer-patients-tolerate-radiation-therapy-0226">
-
-                                        <img loading="lazy" src="/files/images/202503/MIT-Radiation-Protect-home.jpg"
-                                            width="700" height="467" alt="A tardigrade" typeof="foaf:Image">
-
-
-
-                                        <span class="tool-tip" style="left: 919px; top: 397px;">news.mit.edu</span></a>
-                                </div>
-                                <div class="spotlight-addl-content-block--text">
-                                    <div class="spotlight-addl-content-block--label">
-                                        <strong>
-                                            RESEARCH
-                                        </strong>
-                                    </div>
-                                    <div class="spotlight-addl-content-block--descr">
-                                        <a target="_blank"
-                                            href="http://news.mit.edu/2025/tiny-tardigrades-protein-may-help-cancer-patients-tolerate-radiation-therapy-0226">
-                                            <p>New research may help to protect cancer patients from the side effects of
-                                                radiation therapy. Inspired by the tardigrade, a tiny organism that can
-                                                withstand huge amounts of radiation, engineers developed a strategy for
-                                                protecting healthy tissue from DNA damage.</p>
-
-                                        </a>
-                                    </div>
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="spotlight-addl-content-block">
-                            <div class="spotlight-addl-content-block--inner" style="min-height: 489px;">
-                                <div class="spotlight-addl-content-block--img">
-
-                                    <a target="_blank" href="https://www.instagram.com/p/DDhpYEURbi2">
-
-                                        <img loading="lazy" src="/files/images/202502/bend-hm.jpg" width="700"
-                                            height="466" alt="Benedetta Magni speaking" typeof="foaf:Image">
-
-
-
-                                    </a>
-                                </div>
-                                <div class="spotlight-addl-content-block--text">
-                                    <div class="spotlight-addl-content-block--label">
-                                        <strong>
-                                            #THISISMIT
-                                        </strong>
-                                    </div>
-                                    <div class="spotlight-addl-content-block--descr">
-                                        <a target="_blank" href="https://www.instagram.com/p/DDhpYEURbi2">
-                                            <p>Via @mitsloanadmissions on Instagram: “‘Everything feels possible here …
-                                                the
-                                                MIT ecosystem is amazing.’ Since coming to MIT Sloan, Benedetta Magni,
-                                                MFin
-                                                ’25, has fully embraced the exploratory spirit embedded into the
-                                                Institute’s
-                                                DNA.”</p>
-
-                                        </a>
-                                    </div>
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="spotlight-addl-content-block">
-                            <div class="spotlight-addl-content-block--inner" style="min-height: 489px;">
-                                <div class="spotlight-addl-content-block--img">
-
-                                    <a target="_blank"
-                                        href="http://news.mit.edu/2025/five-years-five-triumphs-putnam-math-competition-0228">
-
-                                        <img loading="lazy" src="/files/images/202502/champs-1hm.jpg" width="712"
-                                            height="475" alt="6 top finishers of the 85th Putnam Math Competition"
-                                            typeof="foaf:Image">
-
-
-
-                                    </a>
-                                </div>
-                                <div class="spotlight-addl-content-block--text">
-                                    <div class="spotlight-addl-content-block--label">
-                                        <strong>
-                                            AROUND CAMPUS
-                                        </strong>
-                                    </div>
-                                    <div class="spotlight-addl-content-block--descr">
-                                        <a target="_blank"
-                                            href="http://news.mit.edu/2025/five-years-five-triumphs-putnam-math-competition-0228">
-                                            <p>For the fifth time in the history of the annual William Lowell Putnam
-                                                Mathematical Competition, and for the fifth year in a row, MIT swept all
-                                                five of the contest’s top spots.</p>
-
-                                        </a>
-                                    </div>
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="spotlight-addl-content-block">
-                            <div class="spotlight-addl-content-block--inner" style="min-height: 490px;">
-                                <div class="spotlight-addl-content-block--img">
-
-                                    <a target="_blank"
-                                        href="http://news.mit.edu/2025/sometimes-when-competitors-collaborate-everybody-wins-0227">
-
-                                        <img loading="lazy" src="/files/images/202502/MIT-Payoff-Sharing-SLsub.jpg"
-                                            width="600" height="400" alt="Stylized hand shake" typeof="foaf:Image">
-
-
-
-                                    </a>
-                                </div>
-                                <div class="spotlight-addl-content-block--text">
-                                    <div class="spotlight-addl-content-block--label">
-                                        <strong>
-                                            RESEARCH
-                                        </strong>
-                                    </div>
-                                    <div class="spotlight-addl-content-block--descr">
-                                        <a target="_blank"
-                                            href="http://news.mit.edu/2025/sometimes-when-competitors-collaborate-everybody-wins-0227">
-                                            <p>A new framework helps rail system operators or other planners identify
-                                                joint
-                                                infrastructure projects to collaborate on with other firms. The tool can
-                                                tell an operator how much to invest, when to collaborate, and how to
-                                                distribute the shared profits.</p>
-
-                                        </a>
-                                    </div>
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="spotlight-addl-content-block">
-                            <div class="spotlight-addl-content-block--inner" style="min-height: 490px;">
-                                <div class="spotlight-addl-content-block--img">
-
-                                    <a target="_blank"
-                                        href="http://news.mit.edu/2025/fiber-computer-allows-apparel-to-run-apps-and-understand-wearer-0226">
-
-                                        <img loading="lazy" src="/files/images/202502/MIT-fiber-computer-SLsub.jpg"
-                                            width="600" height="400"
-                                            alt="US Army Major Hefner training in Norway with Fiber computer base layer."
-                                            typeof="foaf:Image">
-
-
-
-                                    </a>
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
-                                <div class="spotlight-addl-content-block--text">
-                                    <div class="spotlight-addl-content-block--label">
-                                        <strong>
-                                            MIT INNOVATORS
-                                        </strong>
-                                    </div>
-                                    <div class="spotlight-addl-content-block--descr">
-                                        <a target="_blank"
-                                            href="http://news.mit.edu/2025/fiber-computer-allows-apparel-to-run-apps-and-understand-wearer-0226">
-                                            <p>Engineers developed a programmable computer in the form of a single
-                                                elastic
-                                                fiber that can be sewn into a garment. Base-layer clothing with these
-                                                fiber
-                                                computers is being tested in the Arctic to monitor U.S. service members’
-                                                health and safety in extreme environments.</p>
+                            </div>
+                        </div>
 
-                                        </a>
-                                    </div>
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 box-news">
+                            <div class="card ">
+                                <img src="https://www.uniamazonia.edu.co/inicio/images/banners/2025/Capacitese%20para%20el%20Empleo.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
-                <div id="node-spotlight" data-viewingspotlight="Improving chemotherapy">
-                    <div class="spotlight-newsletter-cta">
-                        <div class="spotlight-newsletter-cta-inner">
-                            <h4 class="spotlight-newsletter-cta__h">Want more about MIT?</h4>
-                            <p class="spotlight-newsletter-cta__text">
-                                Explore <a href="/archive/spotlight/improving-chemotherapy">more spotlights</a>, or
-                                subscribe to receive
-                                <a href="/mit-daily-weekly">daily or weekly doses of MIT</a> in your inbox.
-                            </p>
-                        </div> <a href="/mit-daily-weekly" class="spotlight-newsletter-cta__button">Subscribe</a>
-                    </div>
-                </div>
-
-
             </div>
         </div>
 
         <!-- Init of button popup division-->
         <div class="container-popup">
-            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                Link with href
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                Plataformas Institucionales
             </a>
 
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                    <h4 class="offcanvas-title" id="offcanvasExampleLabel" style="font-weight: 700;">Plataformas
+                        Institucionales</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <div>
-                        Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                        images, lists, etc.
-                    </div>
-                    <div class="dropdown mt-3">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <div class="row ">
+                        <div class="col-6 box" style="background-color: #EDB02E;">Chairá</div>
+                        <div class="col-6 box" style="background-color: #E47113;">Correo</div>
+                        <div class="col-3 box" style="background-color: #169586;">Aula Extendida</div>
+                        <div class="col-3 box" style="background-color:  #005A7E;">Campus Virtual</div>
+                        <div class="col-3 box" style="background-color:  #34AB1E;">Atención al Ciudadano</div>
+                        <div class="col-3 box" style="background-color:  #A6141D;">SIGC</div>
+                        <div class="col-3 box" style="background-color: #EDB02E;">Invitaciones</div>
+                        <div class="col-3 box" style="background-color: #E47113;">Convenios OARI</div>
+                        <div class="col-3 box" style="background-color: #169586;">BPM.GOV</div>
+                        <div class="col-3 box" style="background-color: #34AB1E;">SECOP II</div>
                     </div>
                 </div>
+
             </div>
 
-        </div>
+            <div class="container-popup-sec">
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button"
+                    aria-controls="offcanvasExample">
+                    Link with href
+                </a>
 
-        <div class="container-popup-sec">
-            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button" aria-controls="offcanvasExample">
-                Link with href
-            </a>
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample2"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                            text,
+                            images, lists, etc.
+                        </div>
+                        <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div>
-                        Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                        images, lists, etc.
-                    </div>
-                    <div class="dropdown mt-3">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-
-        </div>
 
     </main>
 
