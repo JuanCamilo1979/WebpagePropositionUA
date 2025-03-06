@@ -2,7 +2,8 @@
     background-color: green;
 }
 
-.box{
+.box-popup,
+.box {
     display: flex;
     padding: 50px auto 30px auto;
     align-items: center;
@@ -15,7 +16,7 @@
     text-wrap: wrap;
 }
 
-.box-news{
+.box-news {
     margin-top: 50px;
 }
 
@@ -30,11 +31,13 @@
 .container-popup {
     z-index: 4;
     background-color: brown;
+    overflow: hidden;
 }
 
 .container-popup-sec {
     z-index: 4;
     background-color: brown;
+    overflow: hidden;
 }
 
 
@@ -78,10 +81,11 @@
     /* Content properties*/
     align-items: center;
     justify-content: space-around;
-    background-color: #0B750E !important; 
+    background-color: #0B750E !important;
 }
 
-.navbar-brand, .nav-link{
+.navbar-brand,
+.nav-link {
     color: aliceblue !important;
 }
 
@@ -135,7 +139,7 @@
     margin-top: -15px;
 }
 
-.es-search__box-mod{
+.es-search__box-mod {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -176,7 +180,7 @@
     transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.titlePrincipal{
+.titlePrincipal {
     margin-top: 100px;
     display: flex;
     background-color: #0b3104;
@@ -194,6 +198,10 @@
         padding: 15px 30px;
     }
 
+    .box-popup {
+        height: 150px;
+    }
+
     .container-popup {
         position: fixed;
         bottom: 0;
@@ -208,7 +216,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
         .btn-primary {
             transform: rotate(90deg);
             transform-origin: center;
@@ -241,7 +249,11 @@
     }
 
     #offcanvasExample {
-        width: 90%;
+        width: 100%;
+    }
+
+    .offcanvas-body {
+        padding: 50px;
     }
 
     .spotlight-mod {
@@ -254,13 +266,12 @@
         margin-top: 78px;
         margin-left: 362px;
         min-height: 100vh;
-
     }
 
 }
 
 @media (min-width: 720px) {
-    .box{
+    .box {
         height: 250px;
         align-items: center;
     }
@@ -285,14 +296,18 @@
 }
 
 @media (max-width:720px) {
-    .box{
+    .box {
         width: 100%;
         height: 80px;
     }
-    
+
 }
 
 @media (max-width: 1100px) {
+    .box-popup {
+        width: 100%;
+        height: 89px;
+    }
 
     .container-popup {
         display: none;
@@ -311,10 +326,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
         .btn-primary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             height: 100%;
-            width: calc(100vw);
+            width: 100%;
+            font-size: 1.3rem;
+            font-weight: 700;
         }
     }
 
@@ -324,7 +344,7 @@
     }
 
     #offcanvasExample2 {
-        height: 80%;
+        height: 100%;
     }
 
     .search-suggestions {
