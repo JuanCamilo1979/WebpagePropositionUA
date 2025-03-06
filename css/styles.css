@@ -67,7 +67,14 @@
     /*Box ubication*/
     z-index: 1;
     /* Style attributes */
-    background-color: aqua;
+    background-image: url('https://www.uniamazonia.edu.co/inicio/images/top_row_bg.jpg');
+    /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(9, 68, 9, 0.99);
+    /* Green overlay */
+    background-blend-mode: multiply;
+    /* Blends the green with the image */
 }
 
 .navbar {
@@ -124,7 +131,13 @@
 
 
     /*Box sizes*/
-    background-color: blue;
+    /* background-image: url('your-image.jpg'); Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255);
+    /* Green overlay */
+    background-blend-mode: multiply;
+    /* Blends the green with the image */
     visibility: hidden;
 }
 
